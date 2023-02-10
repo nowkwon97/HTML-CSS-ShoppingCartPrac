@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="./shopping-payment.css">
+</head>
+<body>
+  
+  <main class="wrapper">
+    <h1>Choose your Payment method</h1>
+    <div class="payment-method">
+
+      <header>
+        <form action="">
+          <div>
+            <input id="check-1" type="radio" name="method"><label for="check-1">Account transfer</label>
+          </div>
+          <div>
+            <input id="check-2" type="radio" name="method"><label for="check-2">Deposit without bankbook</label>
+          </div>
+          <div>
+            <input id="check-3" type="radio" name="method"><label for="check-3">Kakao Pay</label>
+          </div>
+        </form>
+      </header>
+
+      <section class="payment">
+        <form action="">
+          <label>
+            E-mail : <input type="email" placeholder="email@gmail.com">
+          </label>
+          <label>
+            Accont-number : <input type="text" placeholder="Account-number">
+          </label>
+          <label>
+            password : <input type="password" placeholder="password">
+          </label>
+        </form>
+      </section>
+
+      <footer>
+        <div>
+          <button type="button" class="button" onclick="location.href='shopping-loading1.html'">
+            <span>submit</span>
+          </button>
+        </div>
+      </footer>
+
+    </div>
+  </main>
+  
+</body>
+</html>
